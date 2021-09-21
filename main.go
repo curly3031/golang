@@ -1,11 +1,11 @@
 package main
 
 import (
-	"/Users/g.plekhov/GolandProjects/golang/say"
 	"fmt"
+	"github.com/curly3031/golang/say"
 )
 
-func main(){
+func main() {
 	fmt.Println("hello world")
 	fmt.Println(say.SayHello())
 }
